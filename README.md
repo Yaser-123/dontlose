@@ -2,9 +2,15 @@
 
 You bought the thing. The receipt went into a folder. Three weeks later the return window closed and you found out by trying to return it.
 
-Don'tLose is a deadline safety net that lives on your computer. Receipts, warranties, subscriptions, renewals, library cards, the document you swore you would deal with. Drop them in, or type what you already know, and the dates that are actually in there show up on a timeline before they sneak past you.
+Don'tLose is a deadline safety net for receipts, warranties, subscriptions, renewals, library cards, and the document you swore you would deal with. Drop them in, or type what you already know, and the dates that are actually in there show up on a timeline before they sneak past you.
 
-Your files stay on this machine. Nothing is sent to a paid AI API.
+Nothing is sent to a paid AI API.
+
+## Try it
+
+The demo is live at [dontlose.onrender.com](https://dontlose.onrender.com/).
+
+On that copy you can add items by hand and read a text PDF. Photos and Gemma stay on a computer you run yourself, because that server has no Tesseract and no Ollama. The free instance sleeps when nobody is visiting, so the first open can sit on "Gathering your deadlines" for about a minute. Items there are one shared list, and Render can wipe them when the service restarts. For receipts you care about, run it locally. Your files stay on that machine.
 
 ## What you can do
 
@@ -111,7 +117,7 @@ They check that a missing policy does not become a deadline, that manual items c
 
 ## Contributing
 
-It's MIT. Use it, change it, ship a fix, tell a friend.
+It's MIT. Use it, change it, ship a fix, tell a friend. The repo is [Yaser-123/dontlose](https://github.com/Yaser-123/dontlose).
 
 Pull requests are welcome. A useful one is a bug with a short note on how you hit it, a clearer empty state, or a deadline rule that still refuses to invent a date. Please keep document text on the machine. Don't add a paid API and call it local.
 
