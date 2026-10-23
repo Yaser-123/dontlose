@@ -6,11 +6,24 @@ Don'tLose is a deadline safety net for receipts, warranties, subscriptions, rene
 
 Nothing is sent to a paid AI API.
 
+[![Live demo](https://img.shields.io/badge/demo-dontlose.onrender.com-0c1b33)](https://dontlose.onrender.com/)
+[![License](https://img.shields.io/badge/license-MIT-a67c2d)](LICENSE)
+
 ## Try it
 
 The demo is live at [dontlose.onrender.com](https://dontlose.onrender.com/).
 
 On that copy you can add items by hand and read a text PDF. Photos and Gemma stay on a computer you run yourself, because that server has no Tesseract and no Ollama. The free instance sleeps when nobody is visiting, so the first open can sit on "Gathering your deadlines" for about a minute. Items there are one shared list, and Render can wipe them when the service restarts. For receipts you care about, run it locally. Your files stay on that machine.
+
+## The cards
+
+The dashboard counts what is open, what needs a look, and what is overdue. Each deadline is its own card, with the date, how it was calculated, and a way to mark it done or set a reminder.
+
+| Dashboard | Timeline |
+| --- | --- |
+| ![Dashboard cards: active items, open deadlines, and the Cooker return and warranty](docs/dashboard.png) | ![Timeline cards for the Cooker return window and warranty](docs/timeline.png) |
+
+![Item page, with the deadline cards beside the evidence](docs/item.png)
 
 ## What you can do
 
